@@ -1,0 +1,19 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node $NODE_DEBUG_OPTION index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "lodash": "^4.17.10",
+    "nodemon": "^1.17.4"
+  }
+}
